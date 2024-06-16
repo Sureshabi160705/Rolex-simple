@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    background-color: sienna;
+    color: whitesmoke;
+    height: 40px;
+    text-align:start;
+    width: 100%;
+    border: 2px black solid;
+}
+nav{
+    background-color: sienna;
+    color: whitesmoke;
+    padding: 10px;
+}
+h1,ul,li{
+    display: inline;
+}
+ul{
+    margin-left: 70%;
+}
+li{
+    color:gray;
+    padding: 1px;
+    cursor: pointer;
+}
+li:hover{
+    color: white;
+}
+button{
+    background-color: sienna;
+    color: whitesmoke;
+}
+a:hover{
+    background-color: sienna;
+    color: whitesmoke;
+}
+#bar{
+    width: 300px;
+    height: 20px;
+}
+input{
+    width: 600px;
+    height: 40px;
+    border-color: rgb(86, 64, 64);
+    border-radius: 9px;
+    border-style: solid;
+    margin-left: 300px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ser{
+    background-color: black;
+    color: aliceblue;
+}
